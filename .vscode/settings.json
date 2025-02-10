@@ -2,7 +2,9 @@
     "yaml.schemas": {
         "https://www.artillery.io/schema.json": [
             "file:///c%3A/Users/RajganeshRajasekar/ArtilleryCommitQualityTest/artillery.yml",
-            "file:///c%3A/Users/RajganeshRajasekar/ArtilleryCommitQualityTest/artilleryTest.yml"
+            "file:///c%3A/Users/RajganeshRajasekar/ArtilleryCommitQualityTest/artilleryTest.yml",
+            "git:/c%3A/Users/RajganeshRajasekar/ArtilleryCommitQualityTest/artillery.yml?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CRajganeshRajasekar%5C%5CArtilleryCommitQualityTest%5C%5Cartillery.yml%22%2C%22ref%22%3A%227b88eae25e3ae8abe78dfefe7b727b44aad1230a%22%7D",
+            "git:/c%3A/Users/RajganeshRajasekar/ArtilleryCommitQualityTest/artilleryTest.yml?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CRajganeshRajasekar%5C%5CArtilleryCommitQualityTest%5C%5CartilleryTest.yml%22%2C%22ref%22%3A%227b88eae25e3ae8abe78dfefe7b727b44aad1230a%22%7D"
         ]
     }
 }
