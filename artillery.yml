@@ -1,0 +1,22 @@
+config:
+  target: http://18.213.235.104:8080
+  engines:
+    playwright:
+      launchOptions:
+        headless: true
+  processor: ./tests/test.js
+  phases:
+  - name: Testing the login function Ramp up phase
+    duration: 3
+    arrivalRate: 3
+    rampTo: 6
+  - name: Testing the login function Constant phase
+    duration: 3
+    arrivalCount: 60
+  - name: Testing the login function Ramp down phase
+    duration: 6
+    arrivalRate: 9
+    rampTo: 1
+scenarios:
+  - engine: playwright
+    flowFunction: "testFunction"
